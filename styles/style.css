@@ -1,3 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header{
+    text-align: center;
+}
+
+.nav {
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    background-color: #ff8182;
+    border: 1px solid white;
+}
+
+
+.footer {
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    background-color: #ff8182;
+}
+
+.main-content {
+    padding: 2em 0;
+}
+
+.active{
+    background-color: pink;
 }
