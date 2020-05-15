@@ -10,7 +10,7 @@ img {
     max-width: 100%;
 }
 
-.header{
+.header {
     text-align: center;
 }
 
@@ -32,6 +32,7 @@ img {
     padding: 2em 0;
 }
 
-.active{
+.active {
     background-color: pink;
+    border-radius: 5px;
 }
