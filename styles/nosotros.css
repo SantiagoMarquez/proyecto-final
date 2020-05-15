@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.text {
+    font-family: 'Handlee',
+        cursive;
+}
+
+.about {
+    padding: 0;
+    margin-top: 40px;
+}
+
+.about .container {
+    background-color: pink;
+    padding: 60px 50px;
+}
+
+@media (max-width: 992px) {
+    .about .container {
+        padding: 30px;
+    }
+}
+
+.about .content h3 {
+    font-weight: 400;
+    font-size: 32px;
+    color: #364146;
+}
+
+.about .content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about .content ul li {
+    padding-bottom: 10px;
+}
+
+.about .content ul i {
+    font-size: 20px;
+    padding-right: 4px;
+    color: #28a745;
+}
+
+.about .content p:last-child {
+    margin-bottom: 0;
+}
+
+.team {
+    background: url("../img/team-bg.jpg") center center no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+    position: relative;
+    font-family: 'Handlee',
+        cursive;
+}
+
+.team::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.75);
+    z-index: 9;
+}
+
+.team .container {
+    position: relative;
+    z-index: 10;
+}
+
+.team .member {
+    text-align: center;
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.team .member .pic {
+    overflow: hidden;
+}
+
+.team .member .member-info {
+    position: absolute;
+    top: 85%;
+    left: 20px;
+    right: 20px;
+    background: #fff;
+    padding: 20px 0;
+    color: #364146;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    max-height: 95px;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.team .member:hover .member-info {
+    max-height: 300px;
+}
+
+.team .member h4 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #364146;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.team .member h4::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #b5c1c6;
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+
+.team .member span {
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+}
+
+.team .member .social {
+    margin-top: 15px;
+}
+
+.team .member .social a {
+    transition: color 0.3s;
+    color: #627680;
+}
+
+.team .member .social a:hover {
+    color: #009cea;
+}
+
+.team .member .social i {
+    font-size: 16px;
+    margin: 0 2px;
+}
+
+@media (max-width: 992px) {
+    .team .member {
+        margin-bottom: 110px;
+    }
+}
