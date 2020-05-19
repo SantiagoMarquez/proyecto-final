@@ -6,8 +6,17 @@ body {
     margin: 0;
 }
 
-img {
-    max-width: 100%;
+
+
+.container img {
+    border-radius: 5px;
+    border: 1em;
+    padding: 3px 0px;
+    border: rgb(145, 105, 138) 5px ridge;
+    border-collapse: separate;
+    border-spacing: 0px 0px;
+    font-size: 10px;
+    line-height: 5px;
 }
 
 .header {
@@ -22,51 +31,146 @@ img {
 }
 
 .card {
-    padding: 1em;
+    padding: 2em;
     border-spacing: 2em;
     font-family: 'Handlee', cursive;
+
+
+}
+
+.containerh1 {
+    text-align: center;
+    font-family: 'Handlee',
+        cursive;
+}
+
+.containerh2 {
+    text-align: center;
+    font-family: 'Handlee',
+        cursive;
+}
+
+
+.img {
+    display: inline-block;
+    grid-template-columns: auto auto auto auto;
+    padding: 0px;
+    width: 300px;
+    object-fit: cover;
+    height: auto;
 
 }
 
 
-
-.row-col {
+.flex-content1 {
     display: flex;
-    border-radius: 5px;
-    padding-left: 5em;
+    grid-area: content1;
+}
+
+.img-group {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 0px 0px 0px 0px;
+    border-right: 1px;
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    width: 300px;
+}
+
+.butt1 {
+    font-family: 'Handlee',
+        cursive;
+    background-color: #ff8182;
+    border: 1px solid white;
+}
+
+.container-w3{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 0px 0px 0px 0px;
+    border-right: 1px;
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    width: 300px;
+}
+
+.w3-col {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 0px 0px 0px 0px;
+    border-right: 1px;
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    width: 300px;
 
 }
 
 .row-col img {
+    display: inline-block;
+    border-radius: 5px;
+    border: 1em;
+    padding: 3px 10px;
+    border: rgb(145, 105, 138) 5px ridge;
+    border-collapse: separate;
+    border-spacing: 10px 5px;
+    font-size: 20px;
+    line-height: 40px;
+
+}
+
+
+.w3-hover-opacity {
+    cursor: pointer;
+}
+
+.w3-center {
+    text-align: center;
+    font-family: 'Handlee',
+        cursive
+}
+
+.w3-wide {
+    letter-spacing: 10px;
+}
+
+.container {
+    font-family: 'Handlee',
+        cursive
+}
+
+.container-card-group{
+    padding: 3em;
+    border-radius: 5px;
+    font-family: 'Handlee', cursive;
     border-radius: 5px;
     border: 1em;
     border: rgb(145, 105, 138) 5px double;
     padding: 3px 10px;
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border: rgb(145, 105, 138) 5px ridge;
-
-}
-
-.card-group {
-    padding: 3em;
-    border-radius: 5px;
-    font-family: 'Handlee', cursive;
-}
-
-.main-content {
-    font-family: 'Handlee',
-        cursive;
+    border-collapse: separate;
+    border-spacing: 10px 5px;
+    max-width: 100%;
+    padding-inline-start: 2em;
+    padding-inline-end: 2em;
+    border-collapse: separate;
+    border-spacing: 10px 5px;
 }
 
 .footer {
     text-align: center;
     font-family: 'Handlee', cursive;
     background-color: #ff8182;
-}
-
-.main-content {
-    padding: 2em 0;
 }
 
 .active {
