@@ -38,18 +38,29 @@ body {
 
 }
 
-.containerh1 {
+.w3-center h1 {
     text-align: center;
     font-family: 'Handlee',
         cursive;
 }
 
-.containerh2 {
+.w3-center h2 {
     text-align: center;
     font-family: 'Handlee',
         cursive;
 }
 
+.container h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.container h2 {
+    text-align: center;
+    margin-top: 40px;
+    }
 
 .img {
     display: inline-block;
@@ -88,47 +99,6 @@ body {
     border: 1px solid white;
 }
 
-.container-w3{
-    display: inline-block;
-    justify-content: center;
-    text-align: center;
-    font-size: 15px;
-    border-radius: 0px 0px 0px 0px;
-    border-right: 1px;
-    padding-top: 30px;
-    padding-left: 0px;
-    padding-right: 30px;
-    padding-bottom: 0px;
-    width: 300px;
-}
-
-.w3-col {
-    display: inline-block;
-    justify-content: center;
-    text-align: center;
-    font-size: 15px;
-    border-radius: 0px 0px 0px 0px;
-    border-right: 1px;
-    padding-top: 30px;
-    padding-left: 0px;
-    padding-right: 30px;
-    padding-bottom: 0px;
-    width: 300px;
-
-}
-
-.row-col img {
-    display: inline-block;
-    border-radius: 5px;
-    border: 1em;
-    padding: 3px 10px;
-    border: rgb(145, 105, 138) 5px ridge;
-    border-collapse: separate;
-    border-spacing: 10px 5px;
-    font-size: 20px;
-    line-height: 40px;
-
-}
 
 
 .w3-hover-opacity {
@@ -150,7 +120,7 @@ body {
         cursive
 }
 
-.container-card-group{
+.container-card-group {
     padding: 3em;
     border-radius: 5px;
     font-family: 'Handlee', cursive;
