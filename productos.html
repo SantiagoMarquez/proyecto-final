@@ -16,15 +16,15 @@
 
 <body style="background-color: #ffece0;">
   <header class="header">
-    <img src="./images/linklanaprueba1.png" alt="logo" style="max-width: 200px;">
+    <img src="./images/linklanaprueba1.png" alt="logo" style="max-width: 150px;">
     <!-- <h1>Link Lana</h1>
-        <h3>Tejidos con Creatividad</h3> -->
+    <h3>Tejidos con Creatividad</h3> -->
   </header>
 
   <nav class="navbar nav navbar-expand-lg navbar-light  sticky-top"
-    style="background-color: #ffece0; border: 1px solid white;">
+    style="background-color: #ff8182; border: 1px solid white;">
     <a class="navbar-brand" href="./index.html">
-      <img src="./icons/link.svg" width="30" height="30" alt="link" style="color: rgb(206, 30, 162);">
+      <img src="./icons/icon.svg" width="60" height="60" alt="link" style="color: rgb(206, 30, 162);">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,23 +34,25 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mx-auto">
         <li class="nav-item ">
-          <a class="nav-link" href="./index.html">Inicio <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link" href="./nosotros.html">Nosotros</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="./productos.html">Productos</a>
+          <a class="nav-link" style="padding-right: 20px; padding-left: 20px;" href="./index.html"><b> Inicio </b><span
+              class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./contactanos.html">Contactanos</a>
+          <a class="nav-link" style="padding-right: 20px; padding-left: 20px;" href="./nosotros.html"><b> Nosotros
+            </b></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" style="padding-right: 20px; padding-left: 20px;" href="./productos.html"><b>
+              Productos</b></a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" style="padding-right: 20px; padding-left: 20px;" href="./contactanos.html"> <b>
+              Contactanos </b></a>
         </li>
       </ul>
-      <form class="form-inline">
-        <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
-        <button class="btn btn-primary my-2" type="submit"
-          style="background-color: #ced4da; border: 1px solid #495057">Buscar</button>
-      </form>
+      <button type="button" class="btn " data-toggle="modal" data-target="#Modal1">
+        <i class="fas fa-shopping-cart fa-2x"></i>
+      </button>
     </div>
   </nav>
   <main class="main-content">
@@ -119,7 +121,7 @@
     <h3 style="color: black;"> Productos creados a mano por Link Lana</h3>
     <div class="iconos" style="color: #ff8182;">
       <a href="https://www.facebook.com/lanaconcreatividad/" target="_blank" rel="noopener noreferrer"
-        style="color: white;">
+        style="color: white; padding-right: 20px;">
         <i class="fab fa-facebook fa-2x"></i>
       </a>
       <a href="https://www.instagram.com/linklanacreatividad/" target="_blank" rel="noopener noreferrer"
@@ -129,6 +131,88 @@
     </div>
   </footer>
 
+  <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="Modal1Label" aria-hidden="true">
+    <div class="modal-dialog  modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color:#ff8182;">
+          <h5 class="modal-title" style="color: white;" id="Modal1Label"> <i class="fa fa-shopping-cart"
+              aria-hidden="true"></i>
+            Carrito de compras</h5>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-12 col-sm-12 col-md-2 text-center">
+                  <img src="./images/imagesproducts/Diapositiva32.PNG" alt="diapo21" width="120" height="80">
+                </div>
+                <div class="col-12 text-sm-center col-sm-12 text-md-center col-md-6">
+                  <h4><strong>Mario</strong></h4>
+                  <h4>
+                    <small>18cm de alto</small>
+                  </h4>
+                </div>
+                <div class="col-12 col-sm-12 text-sm-center col-md-4 text-md-right row">
+                  <div class="col-3 col-sm-3 col-md-6 text-md-right" style="padding-top: 5px">
+                    <h6><strong>$30.000 <span class="text-muted">x</span></strong></h6>
+                  </div>
+                  <div class="col-4 col-sm-4 col-md-4">
+                    <div class="quantity">
+                      <input type="number" step="1" max="99" min="0" value="1" class="qty" size="2">
+                    </div>
+                  </div>
+                  <div class="col-2 col-sm-2 col-md-2 text-right">
+                    <button type="button" class="btn btn-outline-danger btn-xs" style="margin-left: 20px;">
+                      <i class="fa fa-trash" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <hr>
+
+              <div class="row">
+                <div class="col-12 col-sm-12 col-md-2 text-center">
+                  <img src="./images/imagesproducts/Diapositiva33.PNG" alt="diapo33" width="120" height="80">
+                </div>
+                <div class="col-12 text-sm-center col-sm-12 text-md-center col-md-6">
+                  <h4><strong>Separadores</strong></h4>
+                  <h4>
+                    <small>Separadores para libros de 15 cm</small>
+                  </h4>
+                </div>
+                <div class="col-12 col-sm-12 text-sm-center col-md-4 text-md-right row">
+                  <div class="col-3 col-sm-3 col-md-6 text-md-right" style="padding-top: 5px">
+                    <h6><strong>$15.000 <span class="text-muted">x</span></strong></h6>
+                  </div>
+                  <div class="col-4 col-sm-4 col-md-4">
+                    <div class="quantity">
+                      <input type="number" step="1" max="99" min="0" value="1" class="qty" size="2">
+                    </div>
+                  </div>
+                  <div class="col-2 col-sm-2 col-md-2 text-right">
+                    <button type="button" class="btn btn-outline-danger btn-xs" style="margin-left: 20px;">
+                      <i class="fa fa-trash" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer" style="text-align: right;">
+              <div style="margin: 10px">
+                <a href="" class="btn btn-success ">Pagar</a>
+                <div style="margin: 5px">
+                  Total: <b>$45.000</b>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
