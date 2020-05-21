@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header {
+    text-align: center;
+}
+
+.nav {
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    background-color: #ff8182;
+    border: 1px solid white;
+}
+
+.card {
+    padding: 1em;
+    border-spacing: 2em;
+    font-family: 'Handlee', cursive;
+
+}
+
+
+
+.row-col {
+    display: flex;
+    border-radius: 5px;
+    padding-left: 5em;
+
+}
+
+.row-col img {
+    border-radius: 5px;
+    border: 1em;
+    border: rgb(145, 105, 138) 5px double;
+    padding: 3px 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: rgb(145, 105, 138) 5px ridge;
+
+}
+
+.card-group {
+    padding: 3em;
+    border-radius: 5px;
+    font-family: 'Handlee', cursive;
+}
+
+.main-content {
+    font-family: 'Handlee',
+        cursive;
+}
+
+.footer {
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    background-color: #ff8182;
+}
+
+.main-content {
+    padding: 2em 0;
+}
+
+.active {
+    background-color: pink;
+}
