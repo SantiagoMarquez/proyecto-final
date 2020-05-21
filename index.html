@@ -2,14 +2,308 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto Final</title>
-    <link rel="stylesheet" href="./styles/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio</title>
+  <link rel="shortcut icon" href="./icons/link.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/fb1e1c83c5.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles/BranchEstilos.css">
+
+
 </head>
 
-<body>
-    <h1>Hola mundo!</h1>
+<body style="background-color: #ffece0;">
+  <header class="header">
+    <img src="./images/linklanaprueba1.png" alt="logo" style="max-width: 150px;">
+    <!-- <h1>Link Lana</h1>
+    <h3>Tejidos con Creatividad</h3> -->
+  </header>
+
+  <nav class="navbar nav navbar-expand-lg navbar-light  sticky-top"
+    style="background-color: #ff8182; border: 1px solid white;">
+    <a class="navbar-brand" href="./index.html">
+      <img src="./icons/icon.svg" width="60" height="60" alt="link" style="color: rgb(206, 30, 162);">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item active">
+          <a class="nav-link" style="padding-right: 20px; padding-left: 20px;" href="./index.html"><b> Inicio </b><span
+              class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="padding-right: 20px; padding-left: 20px;" href="./nosotros.html"><b> Nosotros
+            </b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="padding-right: 20px; padding-left: 20px;" href="./productos.html"><b>
+              Productos</b></a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" style="padding-right: 20px; padding-left: 20px;" href="./contactanos.html"> <b>
+              Contactanos </b></a>
+        </li>
+      </ul>
+      <button type="button" class="btn " data-toggle="modal" data-target="#Modal1">
+        <i class="fas fa-shopping-cart fa-2x"></i>
+      </button>
+    </div>
+  </nav>
+
+  <section class="container">
+
+    <div class="row" style="justify-content: center; padding-top:20px;">
+      <div class="col-12">
+
+        <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="productos.html"><img
+                  src="https://images.unsplash.com/photo-1470049384172-927891aad5e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                  height="600px" class="d-block w-100" alt="..."></a>
+            </div>
+            <div class="carousel-item">
+              <a href="productos.html"><img
+                  src="https://images.unsplash.com/photo-1486129273931-27820249c615?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                  height="600px" class="d-block w-100" alt="..."></a>
+            </div>
+            <div class="carousel-item">
+              <a href="productos.html"><img
+                  src="https://images.unsplash.com/photo-1565878038673-ed1bccf6a28f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                  height="600px" class="d-block w-100" alt="..."></a>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md mt-5">
+          <a href="productos.html"><img
+              src="https://images.unsplash.com/photo-1572943215721-902da50ac821?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+              alt=""></a>
+        </div>
+        <div class="col-md mt-5">
+          <a href="productos.html"><img
+              src="https://images.unsplash.com/photo-1457545195570-67f207084966?ixlib=rb-1.2.1&auto=format&fit=crop&w=769&q=80"
+              alt=""></a>
+        </div>
+        <div class="col-md mt-5">
+          <a href="productos.html">
+            <img src="https://cdn.pixabay.com/photo/2018/12/07/15/09/teddy-bear-3861829__340.jpg" alt=""></a>
+        </div>
+
+      </div>
+    </div>
+    <!-- </div> -->
+  </section>
+  <div class="container mt-5 text-center ft ">
+    <h1>Destacados</h1>
+  </div>
+
+  <section class="container mt-5 mb-5 d-none d-lg-block ">
+    <div class="card-deck ft">
+      <div class="card">
+        <a href="productos.html"> <img src="images/imagesproducts/Diapositiva32.PNG" height="250px" class="card-img-top"
+            alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title text-center">Super Mario Bross</h5>
+          <p class="card-text">Encuentra las mejores figuras coleccionables de Super Mario Bross</p>
+        </div>
+      </div>
+      <div class="card">
+        <a href="productos.html"><img src="images/imagesproducts/Diapositiva24.PNG" height="250px" class="card-img-top"
+            alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title text-center">Hello Kitty</h5>
+          <p class="card-text">Como ella siempre dice, "¡nunca puedes tener demasiados amigos!"</p>
+        </div>
+        <span class=" p-3"></span>
+      </div>
+      <div class="card">
+        <a href="productos.html"><img src="images/imagesproducts/Diapositiva28.PNG" height="250px" class="card-img-top"
+            alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title text-center">Dragones</h5>
+          <p class="card-text">Echa un vistazo a nuestra selección de amigurumi dragon para ver las mejores piezas
+            hechas a mano, únicas o personalizadas de nuestra tienda</p>
+        </div>
+        <span class=" p-3"></span>
+      </div>
+      <div class="card">
+        <a href="productos.html">
+          <img src="images/imagesproducts/Diapositiva38.PNG" height="250px" class="card-img-top" alt="...">
+          <div class="card-body">
+        </a>
+        <h5 class="card-title text-center">Gorros tejidos</h5>
+        <p class="card-text">Los productos LinkLana son especiales por sus detalles. Gorros fabricados 100% con el
+          algodón más fino del mundo. Diseños exclusivos.</p>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="container mt-5 mb-5 d-block d-lg-none ">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="productos.html"><img src="images/imagesproducts/Diapositiva32.PNG" height="300" class="d-block w-100"
+              alt="..."></a>
+        </div>
+        <div class="carousel-item">
+          <a href="productos.html"><img src="images/imagesproducts/Diapositiva28.PNG" height="300" class="d-block w-100"
+              alt="..."></a>
+        </div>
+        <div class="carousel-item">
+          <a href="productos.html"><img src="images/imagesproducts/Diapositiva38.PNG" height="300" class="d-block w-100"
+              alt="..."></a>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+
+  <footer class="t-auto py-5 px-2 text-light text-center footer">
+    <h2 style="color: black;">Derechos reservados.</h2>
+    <h3 style="color: black;"> Productos creados a mano por Link Lana</h3>
+    <div class="iconos" style="color: #ff8182;">
+      <a href="https://www.facebook.com/lanaconcreatividad/" target="_blank" rel="noopener noreferrer"
+        style="color: white; padding-right: 20px;">
+        <i class="fab fa-facebook fa-2x"></i>
+      </a>
+      <a href="https://www.instagram.com/linklanacreatividad/" target="_blank" rel="noopener noreferrer"
+        style="color: white;">
+        <i class="fab fa-instagram fa-2x"></i>
+      </a>
+    </div>
+  </footer>
+
+  <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="Modal1Label" aria-hidden="true">
+    <div class="modal-dialog  modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color:#ff8182;">
+          <h5 class="modal-title" style="color: white;" id="Modal1Label"> <i class="fa fa-shopping-cart"
+              aria-hidden="true"></i>
+            Carrito de compras</h5>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-12 col-sm-12 col-md-2 text-center">
+                  <img src="./images/imagesproducts/Diapositiva32.PNG" alt="diapo21" width="120" height="80">
+                </div>
+                <div class="col-12 text-sm-center col-sm-12 text-md-center col-md-6">
+                  <h4><strong>Mario</strong></h4>
+                  <h4>
+                    <small>18cm de alto</small>
+                  </h4>
+                </div>
+                <div class="col-12 col-sm-12 text-sm-center col-md-4 text-md-right row">
+                  <div class="col-3 col-sm-3 col-md-6 text-md-right" style="padding-top: 5px">
+                    <h6><strong>$30.000 <span class="text-muted">x</span></strong></h6>
+                  </div>
+                  <div class="col-4 col-sm-4 col-md-4">
+                    <div class="quantity">
+                      <input type="number" step="1" max="99" min="0" value="1" class="qty" size="2">
+                    </div>
+                  </div>
+                  <div class="col-2 col-sm-2 col-md-2 text-right">
+                    <button type="button" class="btn btn-outline-danger btn-xs" style="margin-left: 20px;">
+                      <i class="fa fa-trash" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <hr>
+
+              <div class="row">
+                <div class="col-12 col-sm-12 col-md-2 text-center">
+                  <img src="./images/imagesproducts/Diapositiva33.PNG" alt="diapo33" width="120" height="80">
+                </div>
+                <div class="col-12 text-sm-center col-sm-12 text-md-center col-md-6">
+                  <h4><strong>Separadores</strong></h4>
+                  <h4>
+                    <small>Separadores para libros de 15 cm</small>
+                  </h4>
+                </div>
+                <div class="col-12 col-sm-12 text-sm-center col-md-4 text-md-right row">
+                  <div class="col-3 col-sm-3 col-md-6 text-md-right" style="padding-top: 5px">
+                    <h6><strong>$15.000 <span class="text-muted">x</span></strong></h6>
+                  </div>
+                  <div class="col-4 col-sm-4 col-md-4">
+                    <div class="quantity">
+                      <input type="number" step="1" max="99" min="0" value="1" class="qty" size="2">
+                    </div>
+                  </div>
+                  <div class="col-2 col-sm-2 col-md-2 text-right">
+                    <button type="button" class="btn btn-outline-danger btn-xs" style="margin-left: 20px;">
+                      <i class="fa fa-trash" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer" style="text-align: right;">
+              <div style="margin: 10px">
+                <a href="" class="btn btn-success ">Pagar</a>
+                <div style="margin: 5px">
+                  Total: <b>$45.000</b>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>

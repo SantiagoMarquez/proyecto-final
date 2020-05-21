@@ -1,0 +1,57 @@
+.title {
+    text-align: center;
+    color: black;
+    font-family: 'Handlee',
+        cursive;
+}
+
+#contact .form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+#contact button {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    background-color: white;
+}
+
+#contact .row {
+    margin-bottom: 30px;
+}
+
+.info {
+    margin-top: -24px;
+    background: rgba(0, 0, 0, 0.04);
+    border: 1px solid #ced4da;
+    padding-top: 30px;
+    min-height: 160px;
+    border-radius: 5px;
+}
+
+.icon {
+    text-align: center;
+    position: relative;
+}
+
+.icon>.image {
+    position: relative;
+    margin: auto;
+    width: 88px;
+    height: 88px;
+    border: 8px solid white;
+    line-height: 88px;
+    border-radius: 50%;
+    background: pink;
+    vertical-align: middle;
+}
+
+
+.icon:hover>.image {
+    background: rgb(59, 52, 52);
+}
+
+.icon>.image>i {
+    font-size: 36px;
+    color: #fff;
+}
