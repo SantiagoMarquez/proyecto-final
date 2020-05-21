@@ -60,7 +60,7 @@ body {
 .container h2 {
     text-align: center;
     margin-top: 40px;
-    }
+}
 
 .img {
     display: inline-block;
@@ -145,4 +145,8 @@ body {
 
 .active {
     background-color: pink;
+}
+
+.columnas-separadas>div {
+    margin: 0.5em auto;
 }
